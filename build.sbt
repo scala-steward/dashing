@@ -36,7 +36,7 @@ lazy val sharedJVM = shared.jvm.settings(name := "sharedJVM")
 lazy val sharedJS = shared.js.settings(name := "sharedJS")
 
 lazy val scalajsDomVersion = "0.9.6"
-lazy val scalajsReactVersion = "1.2.1"
+lazy val scalajsReactVersion = "1.2.3"
 lazy val reactVersion = "16.4.1"
 lazy val chartjsVersion = "2.7.2"
 
@@ -83,8 +83,8 @@ dockerExposedVolumes := Seq("/dashing/config")
 maintainer in Docker := "Ben Fradet <https://github.com/BenFradet>"
 
 lazy val http4sVersion = "0.18.13"
-lazy val github4sVersion = "0.18.6"
 lazy val circeVersion = "0.10.0"
+lazy val github4sVersion = "0.18.8"
 lazy val circeConfigVersion = "0.4.1"
 lazy val scalatagsVersion = "0.6.7"
 lazy val logbackVersion = "1.2.3"
